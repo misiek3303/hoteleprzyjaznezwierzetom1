@@ -20,7 +20,7 @@
     .jumbotron {
 
 
-      background-image: url("baner.jpg");
+      background-image: url("baner1.jpg");
       background-size: cover;
       background-position: top;
       background-repeat: no-repeat;
@@ -30,11 +30,11 @@
       color: white;
     }
 
-    @media (max-width: 600px) {
+    @media (max-width: 1000px) {
       .jumbotron {
 
 
-        background-image: url("baner.jpg");
+        background-image: url("baner1.jpg");
         background-size: cover;
         background-position: top;
         background-repeat: no-repeat;
@@ -170,6 +170,10 @@
       height: 50px;
       width: 50px;
     }
+
+    .zakrzywienie {
+      border-radius: 10px;
+    }
   </style>
 </head>
 
@@ -198,15 +202,18 @@
   </nav>
 
   <!-- HEADER -->
-
-  <div class="jumbotron jumbotron-fluid ">
-    <center>
-      <h1 class="display-4"></h1>
-      <p class="lead"></p>
-      <p></p>
-      <p class="lead">
-      </p>
-    </center>
+  <div class="row justify-content-center black">
+    <div class="col-lg-11 col-md-11 col-sm-11 col-xs-11">
+      <div class="jumbotron jumbotron-fluid zakrzywienie">
+        <center>
+          <h1 class="display-4"></h1>
+          <p class="lead"></p>
+          <p></p>
+          <p class="lead">
+          </p>
+        </center>
+      </div>
+    </div>
   </div>
 
   <!-- SEKCJA B -->
